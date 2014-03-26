@@ -31,6 +31,7 @@ public class ApplicationController {
 
     public Result index() {
         
+        logger.debug("that's a debug info!");
         logger.info("that's an info!");
 
         return Results.html();
